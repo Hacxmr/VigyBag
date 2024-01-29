@@ -1443,6 +1443,7 @@ div.c a {
   .header_container{
     height: 10vh;
     margin-bottom: 120px;
+    width: 100%;
   }
 
   .header_container ul li a{
@@ -1516,7 +1517,32 @@ div.c a {
   justify-content: space-evenly;
 }
 
+.app-container {
+  height: 627px;
+  background-image: url('./style.css/img/app-section.webp');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 2%;
+  width: 50%;  
+}
 
+.current_item,.next_item,.next_item_2,.previous_item,.previous_item_2{
+  width: 50%;
+  height: 50vh;
+  align-items: center;
+  justify-content: center;
+  margin: 100px;
+
+}
+
+.title{
+  font-size: 100px;
+  margin-bottom: 100px;
+}
   
 
  
