@@ -544,6 +544,10 @@ body.dark {
   .app-info {
     width: 60%;
   }
+
+   .product-container{
+    height: 200px;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -563,6 +567,7 @@ body.dark {
   .vigybag-image {
     width: 100%;
   }
+
 }
 
 /* items section */
